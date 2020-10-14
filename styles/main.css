@@ -466,3 +466,204 @@ nav {
     border-right: 15px solid #fff;
     left: -15px;
 }
+
+/* Our menu section */
+.our-menu-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/pancake.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 150px 50px;
+}
+
+.our-menu-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.our-menu-h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.food-container {
+    color: #fff;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+}
+
+.our-menu-row {
+    display: flex;
+    justify-content: center;
+}
+
+.our-menu-col {
+    width: 335px;
+    margin: 30px;
+}
+
+.food-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.food-price {
+    font-size: 25px;
+    color: #f2ac32;
+}
+
+.food-ingredients {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.our-menu-button {
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.our-menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 10px 25px;
+}
+
+/* Booking table section */
+.booking-table-section {
+    padding: 100px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.booking-table-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.booking-table-h2 {
+    color: #000;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.booking-table-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.booking-div {
+    background-color: #fff;
+    margin: 30px 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.booking-icon {
+    padding: 15px 20px;
+    display: inline-block;
+    border-right: 1px solid #f0f0f0;
+}
+
+.booking-data {
+    padding-right: 20px;
+    padding-left: 20px;
+    /* font-size: 14px; */
+}
+
+.booking-cta {
+    background-color: #f2ac32;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 50px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 60px 0px;
+    padding-bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/buffet.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+}
+
+.footer-title {
+    font-family: 'Oswald', sans-serif;
+    color: #f2ac32;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    margin: 30px 60px;
+}
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-newsletter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 230px;
+}
+
+.footer-email {
+    padding: 10px 22px;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.footer-subscribe {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    background-color: #f2ac32;
+    text-align: center;
+    line-height: 45px;
+}
+
+.copyright {
+    padding: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    border-top: 1px solid rgba(240, 240, 240, 0.425);
+}
+
+.copyright-name {
+    color: #f2ac32;
+}
